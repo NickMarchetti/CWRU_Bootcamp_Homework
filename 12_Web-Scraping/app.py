@@ -28,7 +28,7 @@ def scrape():
         mars_scraped,
         upsert=True
     )
-    
+
     # Redirect to the home page
     return redirect("http://localhost:5000/", code=302)
 
